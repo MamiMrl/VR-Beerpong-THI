@@ -19,23 +19,12 @@ public class blue_instantiate_Ball : MonoBehaviourPunCallbacks
         player_blue_location = Bowl_Blue.transform.position;
         while (true){
             GameObject bluePingPongBallInstance = Instantiate(blue_ping_pong_ball, player_blue_location, Quaternion.identity);
-=======
-public class blue_instantiate_Ball : MonoBehaviour
-{
-    float timeDuration = 10.0f;
-    Vector3 player_red_location = new Vector3(-5, 9, -24); // Player red ball spawn location.
-    public GameObject blue_ping_pong_ball;
-
-    IEnumerator Start(){
-        while(true){
-            GameObject bluePingPongBallInstance = Instantiate(blue_ping_pong_ball, player_red_location, Quaternion.identity);
->>>>>>> e75eeec0923cc1b82a7360ffd31392f34fd5b33b
-            // Destroying the ball after the specified time duration.
+// Destroying the ball after the specified time duration.
             Destroy(bluePingPongBallInstance, timeDuration);
             // Wait for the specified time duration before instantiating the next ball.
             yield return new WaitForSeconds(timeDuration);
         }
-<<<<<<< HEAD
+
     }
 
     private void Start()
@@ -67,8 +56,4 @@ public class blue_instantiate_Ball : MonoBehaviour
         }
     }
 
-
-=======
     }    
->>>>>>> e75eeec0923cc1b82a7360ffd31392f34fd5b33b
-}
