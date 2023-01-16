@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9b9069b742e087448a41d931b96e228f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ping_pong_ball: {fileID: 5436324625713991075, guid: 5e3479e925c5f0d4ca939dc282a1efde,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

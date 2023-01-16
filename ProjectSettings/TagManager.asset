@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - destroy_cup
+  - ball_collider
+  - blue_destroy_cup
+  - red_destroy_cup
   layers:
   - Default
   - TransparentFX
